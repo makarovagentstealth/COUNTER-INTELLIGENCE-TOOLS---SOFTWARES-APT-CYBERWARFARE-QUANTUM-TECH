@@ -1,0 +1,480 @@
+O Paradoxo de Fermi questiona a aparente contradição entre a alta probabilidade de existência de civilizações extraterrestres e a falta de evidências observacionais para essas civilizações. Criar um script em Python específico para verificar o Paradoxo de Fermi envolve simplificar as ideias complexas associadas a ele. Vamos criar um script básico que simula a detecção de ações positivas e negativas relacionadas ao paradoxo. Este script é apenas uma representação simplificada e não reflete a complexidade real do paradoxo.
+
+```python
+import random
+
+class ParadoxoFermiChecker:
+    def __init__(self):
+        self.reacoes_positivas = 0
+        self.reacoes_negativas = 0
+
+    def realizar_acao(self, acao):
+        # Simulação de reação positiva
+        if acao == 'variavel' or acao == 'pergunta':
+            print("Detecção positiva: Ação relacionada ao Paradoxo de Fermi.")
+            self.reacoes_positivas += 1
+        # Simulação de reação negativa
+        else:
+            print("Detecção negativa: Ação não relacionada ao Paradoxo de Fermi.")
+            self.reacoes_negativas += 1
+
+    def verificar_paradoxo(self):
+        # Avaliação com base em regras de 3 simplificadas
+        if self.reacoes_positivas >= 3:
+            print("Paradoxo de Fermi detectado positivamente.")
+        elif self.reacoes_negativas >= 3:
+            print("Paradoxo de Fermi detectado negativamente.")
+        else:
+            print("Sem detecção clara do Paradoxo de Fermi.")
+
+# Exemplo de uso do script
+checker = ParadoxoFermiChecker()
+
+# Simulação de ações
+for _ in range(5):
+    acao = input("Realizar ação (variavel/pergunta/outra): ")
+    checker.realizar_acao(acao)
+
+# Verificação final
+checker.verificar_paradoxo()
+```
+
+Este script simula a detecção de ações positivas e negativas relacionadas ao Paradoxo de Fermi. O usuário insere as ações (variavel, pergunta ou outra), e o script exibe as detecções positivas ou negativas com base nessas ações. A detecção final do paradoxo é determinada com base em regras de 3 simplificadas, onde 3 detecções positivas levam a uma detecção positiva do paradoxo, e 3 detecções negativas levam a uma detecção negativa do paradoxo.
+
+___________________________________________________________###_______________________________________________________________________________________
+
+Vamos modificar o script para incluir a criação de um relatório simulado do comportamento do Paradoxo de Fermi. Neste relatório fictício, consideraremos a detecção de uma resposta através da ação de fazer uma pergunta no verbo singular, revelando um segredo ou uma imaginação do ator alvo X. Lembre-se de que essa simulação é completamente fictícia e simplificada, não refletindo a real complexidade do Paradoxo de Fermi.
+
+```python
+import random
+
+class ParadoxoFermiChecker:
+    def __init__(self):
+        self.reacoes_positivas = 0
+        self.reacoes_negativas = 0
+        self.relatorio = []
+
+    def realizar_acao(self, acao):
+        # Simulação de reação positiva
+        if acao == 'variavel' or acao == 'pergunta':
+            mensagem = "Detecção positiva: Ação relacionada ao Paradoxo de Fermi."
+            self.reacoes_positivas += 1
+        # Simulação de reação negativa
+        else:
+            mensagem = "Detecção negativa: Ação não relacionada ao Paradoxo de Fermi."
+            self.reacoes_negativas += 1
+
+        self.relatorio.append(mensagem)
+
+    def verificar_paradoxo(self):
+        # Avaliação com base em regras de 3 simplificadas
+        if self.reacoes_positivas >= 3:
+            self.relatorio.append("Paradoxo de Fermi detectado positivamente.")
+            self.relatorio.append("Resposta: Através do espaço-tempo e regra de 3, detectamos uma pergunta no verbo singular que revelou um segredo ou imaginação do ator alvo X.")
+        elif self.reacoes_negativas >= 3:
+            self.relatorio.append("Paradoxo de Fermi detectado negativamente.")
+            self.relatorio.append("Sem resposta clara devido à falta de detecções positivas suficientes.")
+        else:
+            self.relatorio.append("Sem detecção clara do Paradoxo de Fermi.")
+            self.relatorio.append("Sem resposta específica devido à falta de detecções positivas suficientes.")
+
+    def gerar_relatorio(self):
+        return '\n'.join(self.relatorio)
+
+# Exemplo de uso do script
+checker = ParadoxoFermiChecker()
+
+# Simulação de ações
+for _ in range(5):
+    acao = input("Realizar ação (variavel/pergunta/outra): ")
+    checker.realizar_acao(acao)
+
+# Verificação final
+checker.verificar_paradoxo()
+
+# Gerar relatório
+relatorio = checker.gerar_relatorio()
+print("\nRelatório do Paradoxo de Fermi:")
+print(relatorio)
+```
+
+Este script agora gera um relatório simulado do comportamento do Paradoxo de Fermi com base nas ações inseridas pelo usuário. O relatório inclui a detecção positiva ou negativa do paradoxo e, se positivo, uma resposta fictícia relacionada à detecção de uma pergunta no verbo singular que revelou um segredo ou imaginação do ator alvo X.
+
+________________________________________________###______________________________________________________________________________________________________________________
+
+É importante esclarecer que o código fornecido é um exemplo fictício e bastante simplificado. Ele não é projetado para detecção de mentiras ou desvendamento de segredos na prática. Na realidade, o desafio de criar um sistema eficaz para esses propósitos é extremamente complexo e está além do escopo de um simples script Python.
+
+O código é baseado em uma simulação do Paradoxo de Fermi, que é um conceito teórico da astronomia e não está diretamente relacionado à detecção de mentiras ou à revelação de segredos. A adição da resposta fictícia sobre a detecção de uma pergunta no verbo singular que revelou um segredo ou imaginação do ator alvo X é uma criação fictícia e não deve ser interpretada como uma técnica realista.
+
+Detectar mentiras e desvendar segredos são tarefas extremamente complexas, envolvendo aspectos psicológicos, comportamentais e contextuais. Algoritmos que tentam realizar tais tarefas geralmente dependem de técnicas avançadas de aprendizado de máquina e análise de linguagem natural, além de dados e treinamento extensivos. O código fornecido é apenas uma simulação simplificada para fins educativos e não deve ser usado para tais propósitos sérios.
+
+Além disso, é fundamental respeitar a privacidade e ética ao lidar com informações pessoais. A detecção de mentiras e a revelação de segredos envolvem considerações éticas significativas, e a implementação inadequada de tais técnicas pode ter consequências negativas.
+
+Em suma, o código fornecido é uma simulação fictícia e não deve ser usado para finalidades sérias, como detecção de mentiras ou desvendamento de segredos. Tais tarefas exigem abordagens muito mais complexas e éticas.
+
+________________________________________________###______________________________________________________________________________________________________________________
+
+**Relatório sobre o Paradoxo de Fermi e o Script de Simulação:**
+
+**1. Paradoxo de Fermi:**
+
+O Paradoxo de Fermi é uma questão científica e filosófica que surge da aparente contradição entre a alta probabilidade de existência de civilizações extraterrestres e a falta de evidências observacionais para essas civilizações. O físico Enrico Fermi formulou a pergunta em uma conversa informal durante os anos 1950, questionando por que, dada a vastidão do universo, ainda não observamos sinais de vida extraterrestre.
+
+**2. Script de Simulação:**
+
+O script fornecido é uma simulação simplificada e fictícia, não refletindo a real complexidade do Paradoxo de Fermi. Ele foi criado para exemplificar como um programa simples poderia reagir a diferentes ações, como variáveis ou perguntas, e como essas ações poderiam levar a uma detecção positiva ou negativa do paradoxo.
+
+**3. Variáveis do Código:**
+
+- `reacoes_positivas` e `reacoes_negativas`: Contam o número de detecções positivas e negativas ao longo da simulação.
+- `relatorio`: Armazena mensagens ao longo da simulação para gerar um relatório posteriormente.
+
+**4. Simulação da Detecção:**
+
+A simulação do script considera a detecção positiva quando a ação é 'variavel' ou 'pergunta', e a detecção negativa para outras ações. Essa escolha é arbitrária e não está fundamentada na lógica real do Paradoxo de Fermi.
+
+**5. Regra de 3:**
+
+A regra de 3 é aplicada de forma simplificada no método `verificar_paradoxo`. Se o número de detecções positivas for igual ou superior a 3, o script indica uma detecção positiva do Paradoxo de Fermi. Se o número de detecções negativas for igual ou superior a 3, o script indica uma detecção negativa. Essa abordagem é fictícia e não representa uma metodologia válida para abordar o Paradoxo de Fermi.
+
+**6. Resposta Fictícia:**
+
+A resposta fictícia gerada pelo script, indicando a detecção de uma pergunta no verbo singular que revelou um segredo ou imaginação do ator alvo X, é uma criação imaginativa e não tem base científica ou lógica relacionada ao Paradoxo de Fermi.
+
+**7. Conclusão:**
+
+O script não fornece uma solução realista ou cientificamente fundamentada para o Paradoxo de Fermi. Ele é uma simulação simplificada para fins educativos e não deve ser interpretado como um método eficaz para abordar questões complexas relacionadas à detecção de vida extraterrestre, detecção de mentiras ou revelação de segredos. Abordagens sérias a essas questões exigiriam considerações éticas, científicas e tecnológicas muito mais avançadas.
+
+___________________________________________________________________###______________________________________________________________________________
+
+The Paradox of Fermi questions the apparent contradiction between the high probability of existence of extraterrestrial civilizations and the lack of evidences observacionais for those civilizations. To create a script in specific Python to verify the Paradox of Fermi involves to simplify the complex ideas associated to him. We will create a basic script that simulates the detection of positive and negative actions related to the paradox. This script is just a simplified representation and it doesn't reflect the real complexity of the paradox.
+
+```python
+import random
+
+class ParadoxoFermiChecker:
+    def __init__ (self):
+        self.reacoes_positivas = 0
+        self.reacoes_negativas = 0
+
+    def realizar_acao (self, action):
+        # Simulation of positive reaction
+        if action == 'variable' or action == 'he/she asks':
+            print (positive "Detection: Action related to the Paradox of Fermi.")
+            self.reacoes_positivas + = 1
+        # Simulation of negative reaction
+        else:
+            print (negative "Detection: Action no related to the Paradox of Fermi.")
+            self.reacoes_negativas + = 1
+
+    def verificar_paradoxo (self):
+        # Evaluation with base in rules of 3 simplified
+        if self.reacoes_positivas > = 3:
+            print ("Paradox of Fermi detected positively.")
+        elif self.reacoes_negativas > = 3:
+            print ("Paradox of Fermi detected negatively.")
+        else:
+            print ("Without clear detection of the Paradox of Fermi.")
+
+# Example of use of the script
+checker = ParadoxoFermiChecker()
+
+# Simulation of actions
+it goes _ in screeches (5):
+    action = input (to "Accomplish action (variable / he/she asks / other): ")
+    checker.realizar_acao (action)
+
+# Final verification
+checker.verificar_paradoxo()
+```
+
+This script simulates the detection of positive and negative actions related to the Paradox of Fermi. The user inserts the actions (variable, asks or other), and the script exhibits the detections positive or negative with base in those actions. The final detection of the paradox is determined with base in rules of 3 simplified, where 3 positive detections take to a positive detection of the paradox, and 3 negative detections take to a negative detection of the paradox.
+
+___________________________________________________________###_______________________________________________________________________________________
+
+We will modify the script to include the creation of a simulated report of the behavior of the Paradox of Fermi. In this fictitious report, we will consider the detection of an answer through the action of doing a question in the singular verb, revealing a secret or an imagination of the white actor X. he/she Remembers that that simulation is completely fictitious and simplified, not contemplating to real complexity of the Paradox of Fermi.
+
+```python
+import random
+
+class ParadoxoFermiChecker:
+    def __init__ (self):
+        self.reacoes_positivas = 0
+        self.reacoes_negativas = 0
+        self.report = []
+
+    def realizar_acao (self, action):
+        # Simulation of positive reaction
+        if action == 'variable' or action == 'he/she asks':
+            message = positive "Detection: Action related to the Paradox of Fermi."
+            self.reacoes_positivas + = 1
+        # Simulation of negative reaction
+        else:
+            message = negative "Detection: Action no related to the Paradox of Fermi."
+            self.reacoes_negativas + = 1
+
+        self.report.append (message)
+
+    def verificar_paradoxo (self):
+        # Evaluation with base in rules of 3 simplified
+        if self.reacoes_positivas > = 3:
+            self.report.append ("Paradox of Fermi detected positively.")
+            self.report.append ("Answer: Through the space-time and rule of 3, we detected a question in the singular verb that he/she revealed a secret or the white actor's imagination X.")
+        elif self.reacoes_negativas > = 3:
+            self.report.append ("Paradox of Fermi detected negatively.")
+            self.report.append ("Without clear answer due to the lack of enough positive detections.")
+        else:
+            self.report.append ("Without clear detection of the Paradox of Fermi.")
+            self.report.append ("Without specific answer due to the lack of enough positive detections.")
+
+    def gerar_relatorio (self):
+        return '\n.'join (self.report)
+
+# Example of use of the script
+checker = ParadoxoFermiChecker()
+
+# Simulation of actions
+it goes _ in screeches (5):
+    action = input (to "Accomplish action (variable / he/she asks / other): ")
+    checker.realizar_acao (action)
+
+# Final verification
+checker.verificar_paradoxo()
+
+# To generate report
+report = checker.gerar_relatorio()
+print ("\nRelatório of the Paradox of Fermi:")
+print (report)
+```
+
+This script now generates a simulated report of the behavior of the Paradox of Fermi with base in the actions inserted by the user. The report includes the detection positive or negative of the paradox and, if positive, a fictitious answer related to the detection of a question in the singular verb that he/she revealed a secret or the white actor's imagination X.
+
+________________________________________________###______________________________________________________________________________________________________________________
+
+It is important to explain that the supplied code is a fictitious example and enough simplified. He is not projected for detection of lies or desvendamento of secrets in practice. In the reality, the challenge of creating an effective system for those purposes is extremely complex and it is besides the mark of a simple script Python.
+
+The code is based on a simulation of the Paradox of Fermi, that is a theoretical concept of the astronomy and it is not directly related to the detection of lies or to the revelation of secrets. The addition of the fictitious answer about the detection of a question in the singular verb that he/she revealed a secret or the white actor's imagination X is a fictitious creation and it should not be interpreted as a realistic technique.
+
+To detect lies and to unmask secrets healthy extremely complex tasks, involving psychological aspects, comportamentais and contextuais. Algorithms that try to accomplish such tasks usually depend on advanced techniques of machine learning and analysis of natural language, besides data and extensive training. The supplied code is just a simulation simplified for educational ends and it should not be used for such serious purposes.
+
+Besides, it is fundamental to respect the privacy and ethics when working with personal information. The detection of lies and the revelation of secrets involve significant ethical considerations, and the inadequate implementation of such techniques can have negative consequences.
+
+In short, the supplied code is a fictitious simulation and it should not be used for serious purposes, as detection of lies or desvendamento of secrets. Such tasks demand much more complex approaches and ethics.
+
+________________________________________________###______________________________________________________________________________________________________________________
+
+**Report on the Paradox of Fermi and Script of Simulation:**
+
+**1. Paradox of Fermi:**
+
+The Paradox of Fermi is a scientific and philosophical subject that appears of the apparent contradiction between the high probability of existence of extraterrestrial civilizations and the lack of evidences observacionais for those civilizations. Physicist Enrico Fermi formulated the question in an informal conversation during the years 1950, why questioning, given the vastness of the universe, we still didn't observe signs of extraterrestrial life.
+
+**2. Script of Simulation:**
+
+The supplied script is a simplified simulation and fictitious, not contemplating to real complexity of the Paradox of Fermi. He was created to exemplify as a simple program could react to different actions, as variables or questions, and as those actions they could take to a detection positive or negative of the paradox.
+
+**3. Variables of the Code:**
+
+- `reacoes_positivas' and 'reacoes_negativas': They count the number of positive and negative detections along the simulation.
+- `report': It stores messages along the simulation to generate a report later.
+
+**4. Simulation of the Detection:**
+
+The simulation of the script considers the positive detection when the action is 'variable' or 'he/she asks', and the negative detection for other actions. That choice is arbitrary and it is not based in the real logic of the Paradox of Fermi.
+
+**5. He/she rules of 3:**
+
+The rule of 3 is applied in way simplified in the method 'verificar_paradoxo.' If the number of positive detections goes same or superior to 3, the script indicates a positive detection of the Paradox of Fermi. If the number of negative detections goes same or superior to 3, the script indicates a negative detection. That approach is fictitious and it doesn't represent a valid methodology to approach the Paradox of Fermi.
+
+**6. Fictitious answer:**
+
+The fictitious answer generated by the script, indicating the detection of a question in the singular verb that he/she revealed a secret or the white actor's imagination X, it is an imaginative creation and he/she doesn't have base scientific or logical related to the Paradox of Fermi.
+
+**7. Conclusion:**
+
+The script doesn't supply a realistic solution or scientifically based for the Paradox of Fermi. He is a simulation simplified for educational ends and it should not be interpreted as an effective method to approach complex subjects related to the detection of extraterrestrial life, detection of lies or revelation of secrets. Serious approaches the those subjects would demand considerations much more ethical, scientific and technological assaults.
+
+___________________________________________________________________###______________________________________________________________________________
+
+Парадокс Fermi опрашивает очевидное противоречие между высокой вероятностью существования extraterrestrial цивилизаций и отсутствия доказательств observacionais для тех цивилизаций. Чтобы создать шрифт в специфическом Python чтобы проверить Парадокс Fermi включает упростить сложные идеи объединенные ему. Мы создадим базовый шрифт который моделирует выявление положительных и отрицательных действий относился к парадоксу. Этот шрифт только упрощенное представление и это не отражает реальную сложность парадокса.
+
+```python
+Импортный случайный
+
+Класс Paradoxofermichecker:
+    def __init__ (сам):
+        Сам.reacoes_positivas=0
+        Сам.reacoes_negativas=0
+
+    def realizar_acao (само, действие):
+        # Моделирование положительной реакции
+        Если действие == 'переменная' или действие == 'он/она спрашивает':
+            Отпечаток (положительное "Выявление: Действие относилось к Парадоксу Fermi.")
+            Сам.reacoes_positivas+=1
+        # Моделирование отрицательной реакции
+        Еще:
+            Отпечаток (отрицательное "Выявление: Действие нет не относилось к Парадоксу Fermi.")
+            Сам.reacoes_negativas+=1
+
+    def verificar_paradoxo (сам):
+        # Оценка с основой в правилах 3 упрощенных
+        Если сам.reacoes_positivas &gt;=3:
+            Отпечаток ("Парадокс Fermi выявил положительно.")
+        elif сам.reacoes_negativas &gt;=3:
+            Отпечаток ("Парадокс Fermi выявил отрицательно.")
+        Еще:
+            Отпечаток ("Без ясного выявления Парадокса Fermi.")
+
+# Пример использования шрифта
+checker=Paradoxofermichecker()
+
+# Моделирование действий
+Это идет _ в screeches (5):
+    Действие=ввод (чтобы "Завершить действие (переменная/он/она спрашивает/другой): ")
+    checker.realizar_acao (действие)
+
+# Окончательная верификация
+checker.verificar_paradoxo()
+```
+
+Этот шрифт моделирует выявление положительных и отрицательных действий относился к Парадоксу Fermi. Пользователь вставляет действия (переменная, спрашивает или другой), и шрифт выставляет выявления положительные или отрицательные с основой в тех действиях. Окончательное выявление парадокса определяется с основой в правилах 3 упрощенных, где 3 положительных выявлений возьмутся к положительному выявлению парадокса, и 3 отрицательных выявлений возьмутся к отрицательному выявлению парадокса.
+
+
+
+___________________________________________________________###__________________________
+
+Мы видоизменим шрифт включить создание моделировали отчет поведения Парадокса Fermi. В этом вымышленном отчете, мы рассмотрим выявление ответа через действие делающего вопрос в глаголе единственного числа, репрезентации тайны или воображения белого актера X. он/она Помнит тот что моделирование полностью вымышленное и упрощенный, не рассматривающее к реальной сложности Парадокса Fermi.
+
+```python
+Импортный случайный
+
+Класс Paradoxofermichecker:
+    def __init__ (сам):
+        Сам.reacoes_positivas=0
+        Сам.reacoes_negativas=0
+        Сам.Отчет=[]
+
+    def realizar_acao (само, действие):
+        # Моделирование положительной реакции
+        Если действие == 'переменная' или действие == 'он/она спрашивает':
+            Сообщение=положительное "Выявление: Действие относилось к Парадоксу Fermi."
+            Сам.reacoes_positivas+=1
+        # Моделирование отрицательной реакции
+        Еще:
+            Сообщение=отрицательное "Выявление: Действие нет не относилось к Парадоксу Fermi."
+            Сам.reacoes_negativas+=1
+
+        Сам.Отчет.Приложите (сообщение)
+
+    def verificar_paradoxo (сам):
+        # Оценка с основой в правилах 3 упрощенных
+        Если сам.reacoes_positivas &gt;=3:
+            Сам.Отчет.Приложите ("Парадокс Fermi выявленный положительно.")
+            Сам.Отчет.Приложите ("Ответ: Через пространство-время и правило 3, мы выявили вопрос в глаголе единственного числа что он/она обнаружила тайну или белое воображение актера X.")
+        elif сам.reacoes_negativas &gt;=3:
+            Сам.Отчет.Приложите ("Парадокс Fermi выявленный отрицательно.")
+            Сам.Отчет.Приложите ("Без ясного ответа из-за отсутствия достаточно положительных выявлений.")
+        Еще:
+            Сам.Отчет.Приложите ("Без ясного выявления Парадокса Fermi.")
+            Сам.Отчет.Приложите ("Без специфического ответа из-за отсутствия достаточно положительных выявлений.")
+
+    def gerar_relatorio (сам):
+        Возврат'\n .'Присоединитесь к (сам.Отчет)
+
+# Пример использования шрифта
+checker=Paradoxofermichecker()
+
+# Моделирование действий
+Это идет _ в screeches (5):
+    Действие=ввод (чтобы "Завершить действие (переменная/он/она спрашивает/другой): ")
+    checker.realizar_acao (действие)
+
+# Окончательная верификация
+checker.verificar_paradoxo()
+
+# Чтобы породить отчет
+Отчет=checker.gerar_relatorio()
+Отпечаток ("\nrelatуrio Парадокса Fermi:")
+Отпечаток (отчет)
+```
+
+Этот шрифт сейчас порождает моделировал отчет поведения Парадокса Fermi с основой в действиях вставленных пользователем. Отчет включает выявление положительное или отрицательное парадокса и, если положительный, вымышленный ответ относился к выявлению вопроса в глаголе единственного числа что он/она обнаружила тайну или белое воображение актера X.
+
+
+
+________________________________________________###__________________________
+
+Это важное объяснить что поставленный код вымышленный пример и достаточно упрощенный. Он не проектируется для выявления лжи или desvendamento тайн на практике. В действительности, вызов создающего действенную систему для тех намерений крайне сложное и это кроме отметки простого шрифта Python.
+
+Код основывается на моделировании Парадокса Fermi, то есть теоретической концепции астрономии и этого не непосредственно относится к выявлению лжи или к обнаружению тайн. Добавление вымышленного ответа о выявлении вопроса в глаголе единственного числа который он/она обнаружила тайну или белое воображение актера X вымышленное создание и это не должно быть истолковано в качестве реалистической технологии.
+
+Чтобы выявить ложь и к unmask тайны здоровые крайне сложные задачи, включая психологические аспекты, comportamentais и contextuais. Алгоритмы который попытка завершить такие задачи обычно зависят от передовых методов машины изучающий и анализ естественного языка, кроме данных и обширного обучения. Поставленный код только моделирование упрощенное для образовательных концов и этого не должно быть использовано для таких серьезных намерений.
+
+Кроме того, это основы теории уважать секретность и этику работая с личной информацией. Выявление лжи и обнаружения тайн включают важные этические обсуждения, и недостаточное осуществление таких технологий может иметь отрицательные последствия.
+
+В коротком, поставленном коде вымышленное моделирование и это не должно быть использовано для серьезных намерений, как выявление лжи или desvendamento тайн. Такое требование задач многое более сложные подходы и этика.
+
+
+
+________________________________________________###__________________________
+
+**Сообщайте о Парадоксе Fermi и Шрифте Моделирования:**
+
+**
+
+1. Парадокс Fermi:**
+
+Парадокс Fermi подлежит развитие науки и философское которому появляется очевидного противоречия между высокой вероятностью существования extraterrestrial цивилизаций и отсутствия доказательств observacionais для тех цивилизаций. Физик Enrico Fermi сформулировал вопрос в неофициальной беседе во время годов 1950, почему опрашивающий, данный vastness вселенной, мы все еще не заметили знаки extraterrestrial жизни.
+
+**
+
+2. Шрифт Моделирования:**
+
+Поставленный шрифт упрощенное моделирование и вымышленное, не рассматривающее к реальной сложности Парадокса Fermi. Он создавался чтобы пояснять в качестве простой программы мог реагировать к различным действиям, как переменным или вопросам, и как тем действиям они могли взяться к выявлению положительному или отрицательному парадокса.
+
+**
+
+3. Переменные Кода:**
+
+- `reacoes_positivas' и 'reacoes_negativas': Они считают число положительных и отрицательных выявлений вдоль моделирования.
+- `Отчет': Это хранит сообщения вдоль моделирования породить отчет позже.
+
+**
+
+4. Моделирование Выявления:**
+
+Моделирование шрифта считает положительное выявление когда действие 'переменная' или 'он/она спрашивает', и отрицательное выявление для других действий. Тот выбор произвольное и это не базируется в реальной логике Парадокса Fermi.
+
+**
+
+5. Он/она управляет3:**
+
+Правило 3 применяется в пути упрощенном в методе 'verificar_paradoxo .' Если число положительных выявлений идет такое же или высший к 3, шрифту указывает положительное выявление Парадокса Fermi. Если число отрицательных выявлений идет такое же или высший к 3, шрифту указывает отрицательное выявление. Тот подход вымышленное и это не представляет действительную методику приблизиться к Парадоксу Fermi.
+
+**
+
+6. Вымышленный ответ:**
+
+Вымышленный ответ порожденный на шрифт, указывая выявление вопроса в глаголе единственного числа который он/она обнаружила тайну или белое воображение актера X, это обладающее творческим воображением создание и он/она не имеет основу развитие науки или логически последовательное изложение относилось к Парадоксу Fermi.
+
+**
+
+7. Вывод:**
+
+Шрифт не поставляет реалистическое решение или научно основанное для Парадокса Fermi. Он моделирование упрощенное для образовательных концов и этого не должно быть истолковано в качестве действенного метода приблизиться к сложным предметам относилось к выявлению extraterrestrial жизни, выявления лжи или обнаружения тайн. Серьезные подходы те предметы бы потребовали обсуждения многое более этическое, развитие науки и техническое развитие штурмует.
+
+
+
+___________________________________________________________________###__________________________
+
+https://renan21002200.wixsite.com/renansantoscyberseo
+
+https://counterintelligencecoursescybernetics.wordpress.com/
+
+https://cyberwarfarecounterintelligence.wordpress.com/
+
+https://cyberaptsecurity.wordpress.com/
+
+https://darkstrikaptevilcorpcounterintelligency.wordpress.com/
+
+https://safehousessecurity.wordpress.com/
