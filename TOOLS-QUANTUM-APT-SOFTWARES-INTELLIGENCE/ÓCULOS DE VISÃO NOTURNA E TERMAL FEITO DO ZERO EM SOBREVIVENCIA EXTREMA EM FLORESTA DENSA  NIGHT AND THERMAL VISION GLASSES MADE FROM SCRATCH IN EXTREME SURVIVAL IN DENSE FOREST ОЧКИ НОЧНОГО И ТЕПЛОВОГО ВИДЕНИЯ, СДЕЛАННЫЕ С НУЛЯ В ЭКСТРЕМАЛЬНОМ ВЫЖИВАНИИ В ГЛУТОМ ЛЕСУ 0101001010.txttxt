@@ -48,3 +48,234 @@ print("Tamanho do cristal dilatado:", cristal_riacho.tamanho)
 ```
 
 Este código Python simula o comportamento de um cristal coletado de um riacho e dilatado por fricção periódica, representando uma etapa do processo descrito no relatório. O tamanho do cristal é aumentado em 20% a cada fricção, demonstrando sua dilatação para melhorar suas propriedades ópticas para uso como lentes de óculos de sobrevivência.
+
+___________________________________________________________________###__________________________
+
+**Relatório: Óculos de Sobrevivência em Ambiente Extremo com Visão Térmica**
+
+**Objetivo:**
+Desenvolver um óculos de proteção contra temperaturas extremas em um cenário de sobrevivência na floresta, utilizando materiais disponíveis no ambiente, como folhas de plantas, cristais e um coral, para fornecer visão térmica ao sobrevivente X.
+
+**Materiais Utilizados:**
+1. Folha-de-manteiga (Kalanchoe pinnata) ou outra folha de planta com propriedades de proteção contra raios UV.
+2. Cristais coletados de um riacho.
+3. Coral ou um cristal específico para visão térmica.
+4. Ferramenta contundente para friccionar os cristais (por exemplo, pedra lisa).
+
+**Procedimento:**
+1. Coleta de Materiais:
+   - O sobrevivente X coleta folhas-de-manteiga ou outras folhas de plantas conhecidas por suas propriedades de proteção contra raios UV em uma floresta densa.
+   - Cristais são coletados de um riacho próximo, observando-se cristais de tamanho adequado para a fabricação dos óculos.
+   - Um coral ou um cristal específico conhecido por suas propriedades de visão térmica é coletado.
+
+2. Preparação dos Materiais:
+   - As folhas-de-manteiga são limpas e preparadas para uso como base dos óculos, fornecendo uma camada de proteção adicional contra raios UV.
+   - Os cristais coletados são friccionados com a ferramenta contundente em movimentos periódicos para dilatá-los e melhorar suas propriedades ópticas.
+   - O coral ou o cristal específico para visão térmica é preparado para uso.
+
+3. Montagem dos Óculos:
+   - Os cristais dilatados são cuidadosamente colocados sobre as folhas-de-manteiga, formando as lentes dos óculos.
+   - O coral ou o cristal específico para visão térmica é integrado à estrutura dos óculos, posicionado de forma a permitir a visão térmica.
+
+4. Teste e Utilização:
+   - Os óculos caseiros são testados quanto à sua eficácia na proteção contra temperaturas extremas e na capacidade de fornecer visão térmica.
+   - O sobrevivente X utiliza os óculos durante a navegação na floresta densa, permitindo a detecção de fontes de calor, mesmo durante a noite.
+
+**Conclusão:**
+A combinação criativa de materiais naturais disponíveis no ambiente, como folhas-de-manteiga, cristais, e um coral ou um cristal específico para visão térmica, permitiu a fabricação de óculos de sobrevivência eficazes contra temperaturas extremas, além de fornecer visão térmica em um cenário de floresta densa. Essa tecnologia desconhecida de milhares de anos atrás destaca a importância da adaptação e inovação em situações de sobrevivência extrema.
+
+*(O código Python para simular a transformação de resposta em visão térmica não foi fornecido, pois envolveria técnicas mais avançadas e específicas de processamento de imagem e dados térmicos.)*
+
+___________________________________________________________________###__________________________
+
+**Report: Extreme Environment Survival Glasses**
+
+**Objective:**
+To develop a goggle to protect against extreme temperatures in a forest survival scenario, using materials available in the environment, such as plant leaves and improvised crystals.
+
+**Materials Used:**
+1. Butter leaf (Kalanchoe pinnata) or other plant leaf with UV protection properties.
+2. Crystals collected from a stream.
+3. Blunt tool for rubbing the crystals (e.g. smooth stone).
+
+**Procedure
+1. Collecting materials:
+   - Survivor X collects butter leaves or other plant leaves known for their UV protection properties in a dense forest.
+   - Crystals are collected from a nearby stream, observing crystals of a suitable size for making the glasses.
+
+2. Preparation of the leaf and crystals:
+   - The butter leaves are cleaned and prepared for use as the base of the glasses, providing an additional layer of protection against UV rays.
+   - The collected crystals are rubbed with the blunt tool in periodic movements to dilate them and improve their optical properties.
+
+3. Mounting the glasses:
+   - The dilated crystals are carefully placed on the butter sheets, forming the lenses of the glasses.
+   - The butter sheets are cut and shaped as necessary to create a suitable structure for the glasses, providing comfort and fit for the X-survivor's face.
+
+4. Testing and use:
+   - The homemade glasses are tested for their effectiveness in protecting against extreme temperatures, providing a thermal barrier for Survivor X's eyes.
+   - Survivor X uses the glasses while navigating through dense forest, allowing visibility even at night due to the optical properties of the dilated crystals.
+
+**Conclusion:**
+The creative use of natural materials available in the environment, such as butter leaves and collected crystals, has enabled the manufacture of survival glasses that are effective against extreme temperatures in a dense forest setting. The combination of these materials demonstrated a technology unknown thousands of years ago, highlighting the importance of creativity and adaptation in extreme survival situations.
+
+**Script Code:**
+```python
+# Collected and Dilated Crystal Behavior
+
+class Crystal:
+    def __init__(self, size):
+        self.size = size
+
+    def rub(self):
+        # Method to rub the crystal and dilate it
+        # Implementation of the crystal's dilation behavior
+        self.size *= 1.2 # Example of crystal expansion after rubbing
+
+# Example of using the code:
+crystal_stream = Crystal(size=5) # Create crystal collected from the stream
+crystal_riacho.friccionar() # Rub the crystal to dilate it
+print("Size of dilated crystal:", crystal_riacho.size)
+```
+
+This Python code simulates the behavior of a crystal collected from a stream and dilated by periodic friction, representing a step in the process described in the report. The size of the crystal is increased by 20% with each friction, demonstrating its dilation to improve its optical properties for use as survival goggle lenses.
+
+___________________________________________________________________###__________________________
+
+**Report: Extreme Environment Survival Goggles with Thermal Vision**
+
+**Objective:**
+To develop a goggle to protect against extreme temperatures in a forest survival scenario, using materials available in the environment, such as plant leaves, crystals and a coral, to provide thermal vision to survivor X.
+
+**Materials Used:**
+1. Butter leaf (Kalanchoe pinnata) or other plant leaf with UV protection properties.
+2. Crystals collected from a stream.
+3. Coral or a specific crystal for thermal vision.
+4. Blunt tool for rubbing the crystals (e.g. flat stone).
+
+**Procedure
+1. Collecting materials:
+   - Survivor X collects butter leaves or other plant leaves known for their UV protection properties in a dense forest.
+   - Crystals are collected from a nearby stream and crystals of a size suitable for making glasses are observed.
+   - A coral or a specific crystal known for its thermal vision properties is collected.
+
+2. Preparing the materials:
+   - Butter sheets are cleaned and prepared for use as the base of the glasses, providing an additional layer of protection against UV rays.
+   - The collected crystals are rubbed with the blunt tool in periodic movements to dilate them and improve their optical properties.
+   - The coral or specific crystal for thermal vision is prepared for use.
+
+3. Mounting the glasses:
+   - The dilated crystals are carefully placed on the butter sheets, forming the lenses of the glasses.
+   - The coral or specific crystal for thermal vision is integrated into the frame of the glasses, positioned to allow thermal vision.
+
+4. Testing and use:
+   - The homemade glasses are tested for their effectiveness in protecting against extreme temperatures and their ability to provide thermal vision.
+   - Survivor X uses the glasses while navigating through dense forest, allowing him to detect heat sources, even at night.
+
+**Conclusion
+The creative combination of natural materials available in the environment, such as butter leaves, crystals, and a coral or a specific crystal for thermal vision, has enabled the manufacture of survival glasses that are effective against extreme temperatures, as well as providing thermal vision in a dense forest setting. This unknown technology from thousands of years ago highlights the importance of adaptation and innovation in extreme survival situations.
+
+*(The Python code to simulate the thermal vision response transformation has not been provided, as it would involve more advanced and specific image and thermal data processing techniques).
+
+___________________________________________________________________###__________________________
+
+**Отчет: Очки для выживания в экстремальных условиях**
+
+**Цель:**
+Разработать очки для защиты от экстремальных температур в сценарии выживания в лесу, используя материалы, доступные в окружающей среде, такие как листья растений и импровизированные кристаллы.
+
+**Используемые материалы:**
+1. Листья каланхоэ перистого (Kalanchoe pinnata) или другого растения с защитными свойствами от ультрафиолета.
+2. Кристаллы, собранные в ручье.
+3. Тупой инструмент для растирания кристаллов (например, гладкий камень).
+
+**Процедура
+1. Сбор материалов:
+   - Выживший X собирает в густом лесу листья сливочного масла или другого растения, известного своими защитными свойствами от ультрафиолета.
+   - Кристаллы собирают в ближайшем ручье, наблюдая за кристаллами подходящего размера для изготовления очков.
+
+2. Подготовка листьев и кристаллов:
+   - Листья масляного дерева очищаются и подготавливаются для использования в качестве основы очков, обеспечивая дополнительный слой защиты от ультрафиолетовых лучей.
+   - Собранные кристаллы растираются тупым инструментом периодическими движениями, чтобы расширить их и улучшить оптические свойства.
+
+3. Монтаж очков:
+   - Расширенные кристаллы аккуратно укладываются на листы сливочного масла, формируя линзы очков.
+   - Листы масла разрезаются и формируются по мере необходимости, чтобы создать подходящую структуру для очков, обеспечивая комфорт и прилегание к лицу Х-выжившего.
+
+4. Тестирование и использование:
+   - Самодельные очки проверяются на эффективность защиты от экстремальных температур, обеспечивая тепловой барьер для глаз выжившего Х.
+   - Выживший Икс использует очки во время навигации по густому лесу, обеспечивая видимость даже ночью благодаря оптическим свойствам расширенных кристаллов.
+
+**Заключение:**
+Творческое использование природных материалов, доступных в окружающей среде, таких как листья масличных деревьев и собранные кристаллы, позволило изготовить очки для выживания, которые эффективны при экстремальных температурах в условиях густого леса. Сочетание этих материалов продемонстрировало технологию, неизвестную тысячи лет назад, что подчеркивает важность творческого подхода и адаптации в экстремальных ситуациях выживания.
+
+**Код сценария:**
+``python
+# Поведение собранного и расширенного кристалла
+
+class Crystal:
+    def __init__(self, size):
+        self.size = size
+
+    def rub(self):
+        # Метод, позволяющий потереть кристалл и расширить его.
+        # Реализация поведения кристалла при расширении
+        self.size *= 1.2 # Пример расширения кристалла после натирания
+
+# Пример использования кода:
+crystal_stream = Crystal(size=5) # Создаем кристалл, собранный из потока
+crystal_riacho.friccionar() # Потрите кристалл, чтобы расширить его
+print("Размер расширенного кристалла:", crystal_riacho.size)
+```
+
+Этот Python-код моделирует поведение кристалла, собранного из ручья и расширенного периодическим трением, представляя собой один из этапов процесса, описанного в отчете. Размер кристалла увеличивается на 20 % при каждом трении, демонстрируя его расширение с целью улучшения оптических свойств для использования в качестве линз очков выживания.
+
+___________________________________________________________________###__________________________
+
+**Отчет: Очки для выживания в экстремальных условиях с тепловизором**
+
+**Цель:**
+Разработать очки для защиты от экстремальных температур в сценарии выживания в лесу, используя материалы, доступные в окружающей среде, такие как листья растений, кристаллы и коралл, чтобы обеспечить тепловое зрение для выжившего X.
+
+**Используемые материалы:**
+1. Масляный лист (Kalanchoe pinnata) или другой лист растения с УФ-защитными свойствами.
+2. Кристаллы, собранные в ручье.
+3. Коралл или особый кристалл для теплового зрения.
+4. Тупой инструмент для растирания кристаллов (например, плоский камень).
+
+**Процедура
+1. Сбор материалов:
+   - Выживший X собирает в густом лесу листья масляного дерева или другого растения, известного своими защитными свойствами от ультрафиолета.
+   - Кристаллы собираются в близлежащем ручье, причем кристаллы такого размера, который подходит для изготовления очков.
+   - Собирается коралл или особый кристалл, известный своими свойствами теплового зрения.
+
+2. Подготовка материалов:
+   - Масляные листы очищаются и подготавливаются для использования в качестве основы очков, обеспечивая дополнительный слой защиты от УФ-лучей.
+   - Собранные кристаллы периодически растирают тупым инструментом, чтобы расширить их и улучшить оптические свойства.
+   - Коралл или специальный кристалл для теплового зрения подготавливается к использованию.
+
+3. Установка очков:
+   - Расширенные кристаллы аккуратно укладываются на листы сливочного масла, формируя линзы очков.
+   - Коралл или специальный кристалл для теплового зрения встраивается в оправу очков, располагаясь таким образом, чтобы обеспечить тепловое зрение.
+
+4. Тестирование и использование:
+   - Самодельные очки проверяются на эффективность защиты от экстремальных температур и способность обеспечивать тепловое зрение.
+   - Выживший Икс использует очки во время навигации по густому лесу, что позволяет ему обнаруживать источники тепла даже ночью.
+
+**Заключение
+Творческое сочетание природных материалов, доступных в окружающей среде, таких как масляные листья, кристаллы, а также коралл или особый кристалл для теплового зрения, позволило изготовить очки для выживания, которые эффективно защищают от экстремальных температур, а также обеспечивают тепловое зрение в условиях густого леса. Эта неизвестная технология тысячелетней давности подчеркивает важность адаптации и инноваций в экстремальных ситуациях выживания.
+
+*(Код на языке Python для моделирования трансформации реакции теплового зрения не приводится, поскольку это требует более продвинутых и специфических методов обработки изображений и тепловых данных).
+
+___________________________________________________________________###__________________________
+
+https://renan21002200.wixsite.com/renansantoscyberseo
+
+https://counterintelligencecoursescybernetics.wordpress.com/
+
+https://cyberwarfarecounterintelligence.wordpress.com/
+
+https://cyberaptsecurity.wordpress.com/
+
+https://darkstrikaptevilcorpcounterintelligency.wordpress.com/
+
+https://safehousessecurity.wordpress.com/
