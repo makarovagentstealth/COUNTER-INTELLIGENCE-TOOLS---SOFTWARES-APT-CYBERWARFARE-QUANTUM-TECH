@@ -1,0 +1,50 @@
+**Relatório: Óculos de Sobrevivência em Ambiente Extremo**
+
+**Objetivo:**
+Desenvolver um óculos de proteção contra temperaturas extremas em um cenário de sobrevivência na floresta, utilizando materiais disponíveis no ambiente, como folhas de plantas e cristais coletados de forma improvisada.
+
+**Materiais Utilizados:**
+1. Folha-de-manteiga (Kalanchoe pinnata) ou outra folha de planta com propriedades de proteção contra raios UV.
+2. Cristais coletados de um riacho.
+3. Ferramenta contundente para friccionar os cristais (por exemplo, pedra lisa).
+
+**Procedimento:**
+1. Coleta de Materiais:
+   - O sobrevivente X coleta folhas-de-manteiga ou outras folhas de plantas conhecidas por suas propriedades de proteção contra raios UV em uma floresta densa.
+   - Cristais são coletados de um riacho próximo, observando-se cristais de tamanho adequado para a fabricação dos óculos.
+
+2. Preparação da Folha e dos Cristais:
+   - As folhas-de-manteiga são limpas e preparadas para uso como base dos óculos, fornecendo uma camada de proteção adicional contra raios UV.
+   - Os cristais coletados são friccionados com a ferramenta contundente em movimentos periódicos para dilatá-los e melhorar suas propriedades ópticas.
+
+3. Montagem dos Óculos:
+   - Os cristais dilatados são cuidadosamente colocados sobre as folhas-de-manteiga, formando as lentes dos óculos.
+   - As folhas-de-manteiga são cortadas e moldadas conforme necessário para criar uma estrutura adequada para os óculos, proporcionando conforto e ajuste ao rosto do sobrevivente X.
+
+4. Teste e Utilização:
+   - Os óculos caseiros são testados quanto à sua eficácia na proteção contra temperaturas extremas, fornecendo uma barreira térmica para os olhos do sobrevivente X.
+   - O sobrevivente X utiliza os óculos durante a navegação na floresta densa, permitindo a visibilidade mesmo durante a noite devido às propriedades ópticas dos cristais dilatados.
+
+**Conclusão:**
+O uso criativo de materiais naturais disponíveis no ambiente, como folhas-de-manteiga e cristais coletados, permitiu a fabricação de óculos de sobrevivência eficazes contra temperaturas extremas em um cenário de floresta densa. A combinação desses materiais demonstrou uma tecnologia desconhecida de milhares de anos atrás, destacando a importância da criatividade e adaptação em situações de sobrevivência extrema.
+
+**Código Script:**
+```python
+# Comportamento do Cristal Coletado e Dilatado
+
+class Cristal:
+    def __init__(self, tamanho):
+        self.tamanho = tamanho
+
+    def friccionar(self):
+        # Método para friccionar o cristal e dilatá-lo
+        # Implementação do comportamento de dilatação do cristal
+        self.tamanho *= 1.2  # Exemplo de dilatação do cristal após fricção
+
+# Exemplo de utilização do código:
+cristal_riacho = Cristal(tamanho=5)  # Criar cristal coletado do riacho
+cristal_riacho.friccionar()  # Friccionar o cristal para dilatá-lo
+print("Tamanho do cristal dilatado:", cristal_riacho.tamanho)
+```
+
+Este código Python simula o comportamento de um cristal coletado de um riacho e dilatado por fricção periódica, representando uma etapa do processo descrito no relatório. O tamanho do cristal é aumentado em 20% a cada fricção, demonstrando sua dilatação para melhorar suas propriedades ópticas para uso como lentes de óculos de sobrevivência.
