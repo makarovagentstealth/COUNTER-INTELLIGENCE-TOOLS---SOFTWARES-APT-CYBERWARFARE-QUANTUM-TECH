@@ -1,0 +1,318 @@
+**Relatório de Técnica de Resistência e Sobrevivência na Selva**
+
+**Ator Principal: X**
+
+**Cenário e Condições:**
+O ator X encontra-se em uma situação extrema, onde está isolado na selva, sem qualquer equipamento ou recurso além de suas próprias mãos. Ele é considerado um precursor, agindo como ponto de referência para uma possível margem pública de civis, que está a uma distância aproximada de 70 quilômetros. Além disso, X tem um prazo limitado de 84 horas para sobreviver e possibilitar uma eventual operação de resgate.
+
+**Estratégia de Sobrevivência:**
+
+1. **Orientação e Navegação:**
+X utilizará métodos de orientação natural, como a observação do sol, da lua e das estrelas, juntamente com a análise da vegetação e do terreno, para determinar sua direção e manter um curso em direção à margem pública de civis.
+
+2. **Obtenção de Água Potável:**
+A água é essencial para a sobrevivência. X procurará fontes de água, como rios, riachos e poças de água da chuva. Ele usará técnicas de purificação improvisadas, como a fervura e a filtração através de materiais naturais, para tornar a água potável.
+
+3. **Obtenção de Alimentos:**
+X utilizará sua habilidade de caça e coleta para encontrar alimentos na selva. Ele identificará plantas comestíveis e frutas, bem como procurará por pequenos animais, como insetos e larvas, para garantir sua nutrição.
+
+4. **Abrição de Abrigo:**
+Proteger-se dos elementos é crucial. X construirá abrigos improvisados usando materiais disponíveis na selva, como folhas, galhos e cipós. Esses abrigos oferecerão proteção contra a chuva, o vento e o frio durante a noite.
+
+5. **Sinalização de Resgate:**
+X utilizará técnicas de sinalização improvisadas, como fogueiras, espelhos e sinais de fumaça, para alertar qualquer equipe de resgate em potencial sobre sua localização.
+
+6. **Mentalidade e Determinação:**
+X manterá uma mentalidade positiva e determinada durante todo o período de sobrevivência. Ele aproveitará ao máximo seus recursos limitados e não desistirá até ser resgatado ou alcançar a margem pública de civis.
+
+**Conclusão:**
+Apesar das condições adversas e dos recursos limitados, o ator X possui as habilidades e o conhecimento necessários para sobreviver e cumprir seu papel como precursor. Sua estratégia meticulosamente planejada e sua determinação em enfrentar os desafios da selva aumentam suas chances de sucesso dentro do prazo de 84 horas estabelecido.
+
+___________________________________________________________________###__________________________
+
+**Abordagem com Código Script para a Sobrevivência na Selva com Manipulação de Dificuldade e Auxílios:**
+
+```python
+import random
+
+class AtorX:
+    def __init__(self, dificuldade):
+        self.distancia_margem_publica = 70  # em quilômetros
+        self.tempo_disponivel_horas = 84  # em horas
+        self.chance_salvacao = 0.001  # 0,1% de chance de salvação
+        self.dificuldade = dificuldade
+
+    def orientacao_navegacao(self):
+        # Simulação de orientação e navegação
+        # A chance de sucesso é ajustada com base na dificuldade
+        chance_sucesso = 0.5 + self.dificuldade * 0.25
+        if random.random() < chance_sucesso:
+            return True
+        else:
+            return False
+
+    def obter_agua(self):
+        # Simulação de obtenção de água
+        # A chance de sucesso é ajustada com base na dificuldade
+        chance_sucesso = 0.4 + self.dificuldade * 0.3
+        if random.random() < chance_sucesso:
+            return True
+        else:
+            return False
+
+    def obter_alimentos(self):
+        # Simulação de obtenção de alimentos
+        # A chance de sucesso é ajustada com base na dificuldade
+        chance_sucesso = 0.3 + self.dificuldade * 0.35
+        if random.random() < chance_sucesso:
+            return True
+        else:
+            return False
+
+    def construir_abrigo(self):
+        # Simulação de construção de abrigo
+        # A chance de sucesso é ajustada com base na dificuldade
+        chance_sucesso = 0.35 + self.dificuldade * 0.3
+        if random.random() < chance_sucesso:
+            return True
+        else:
+            return False
+
+    def sinalizacao_resgate(self):
+        # Simulação de sinalização de resgate
+        # A chance de sucesso é ajustada com base na dificuldade
+        chance_sucesso = 0.45 + self.dificuldade * 0.25
+        if random.random() < chance_sucesso:
+            return True
+        else:
+            return False
+
+    def sobreviver(self):
+        # Simulação de tentativa de sobrevivência
+        if self.orientacao_navegacao() and self.obter_agua() and self.obter_alimentos() \
+                and self.construir_abrigo() and self.sinalizacao_resgate():
+            # Se todas as etapas forem bem-sucedidas, X sobrevive
+            return True
+        else:
+            return False
+
+# Configuração da dificuldade (0 para o nível mais fácil, 1 para o mais difícil)
+dificuldade = 0.5
+
+ator_x = AtorX(dificuldade)
+if random.random() < ator_x.chance_salvacao:
+    # Se a chance de salvação for atendida, X sobrevive
+    sobrevivencia = ator_x.sobreviver()
+else:
+    sobrevivencia = False
+
+if sobrevivencia:
+    print("Ator X conseguiu sair da selva densa com vida!")
+else:
+    print("Ator X não conseguiu sobreviver na selva densa.")
+```
+
+**Abordagem Detalhada:**
+- **Dificuldade Ajustável:** A dificuldade é um parâmetro ajustável que varia de 0 (nível mais fácil) a 1 (nível mais difícil). Isso afeta a chance de sucesso em cada etapa de sobrevivência.
+- **Orientação e Navegação:** A chance de sucesso é ajustada com base na dificuldade, variando de 0,5 a 0,75.
+- **Obtenção de Água:** A chance de sucesso é ajustada com base na dificuldade, variando de 0,4 a 0,7.
+- **Obtenção de Alimentos:** A chance de sucesso é ajustada com base na dificuldade, variando de 0,3 a 0,65.
+- **Construção de Abrigo:** A chance de sucesso é ajustada com base na dificuldade, variando de 0,35 a 0,65.
+- **Sinalização de Resgate:** A chance de sucesso é ajustada com base na dificuldade, variando de 0,45 a 0,7.
+- **Chance de Sobrevivência:** A chance de sobrevivência é de 0,1%, independente da dificuldade.
+- Se a chance de sobrevivência for atendida, as simulações são executadas e se todas as etapas forem bem-sucedidas, X sobrevive.
+- O resultado final é exibido com base na sobrevivência ou não de X.
+
+___________________________________________________________________###__________________________
+
+**Jungle Resistance and Survival Technique Report**
+
+**Main actor: X
+
+**Scenario and Conditions
+Actor X is in an extreme situation, where he is isolated in the jungle, without any equipment or resources other than his own hands. He is considered a forerunner, acting as a reference point for a possible public bank of civilians, which is approximately 70 kilometers away. In addition, X has a limited period of 84 hours to survive and enable a possible rescue operation.
+
+**Survival Strategy:**
+
+1. **Orientation and Navigation
+X will use natural orientation methods, such as observing the sun, moon and stars, along with analyzing the vegetation and terrain, to determine its direction and maintain a course towards the civilian public shore.
+
+2. **Obtaining Drinking Water:**
+Water is essential for survival. X will look for water sources such as rivers, streams and rainwater pools. He will use improvised purification techniques, such as boiling and filtering through natural materials, to make the water drinkable.
+
+3. **Getting Food:**
+X will use his hunting and gathering skills to find food in the jungle. He will identify edible plants and fruits, as well as looking for small animals, such as insects and larvae, to ensure his nutrition.
+
+4. **Taking Shelter
+Protecting yourself from the elements is crucial. X will build makeshift shelters using materials available in the jungle, such as leaves, branches and vines. These shelters will offer protection from the rain, wind and cold during the night.
+
+5. **Rescue signaling:**
+X will use improvised signaling techniques, such as flares, mirrors and smoke signals, to alert any potential rescue team to their location.
+
+6. **Mindset and Determination:**
+X will maintain a positive and determined mindset throughout the survival period. He will make the most of his limited resources and will not give up until he is rescued or reaches the public shore of civilians.
+
+**Conclusion
+Despite the adverse conditions and limited resources, actor X has the necessary skills and knowledge to survive and fulfill his role as a forerunner. His meticulously planned strategy and his determination to face the challenges of the jungle increase his chances of success within the 84-hour deadline set.
+
+___________________________________________________________________###__________________________
+
+**Script Code Approach to Wilderness Survival with Difficulty Manipulation and Aids:**
+
+```python
+import random
+
+class ActorX:
+    def __init__(self, difficulty):
+        self.distance_public_margin = 70 # in kilometers
+        self.time_available_hours = 84 # in hours
+        self.chance_salvation = 0.001 # 0.1% chance of salvation
+        self.difficulty = difficulty
+
+    def orientation_navigation(self):
+        # Orientation and navigation simulation
+        # The chance of success is adjusted based on the difficulty
+        chance_success = 0.5 + self.difficulty * 0.25
+        if random.random() < chance_success:
+            return True
+        else:
+            return False
+
+    def get_water(self):
+        # Simulation of getting water
+        # The chance of success is adjusted based on the difficulty
+        chance_success = 0.4 + self.difficulty * 0.3
+        if random.random() < chance_success:
+            return True
+        else:
+            return False
+
+    def get_food(self):
+        # Simulation of getting food
+        # The chance of success is adjusted based on the difficulty
+        chance_success = 0.3 + self.difficulty * 0.35
+        if random.random() < chance_success:
+            return True
+        else:
+            return False
+
+    def build_shelter(self):
+        # Simulation of shelter construction
+        # The chance of success is adjusted based on the difficulty
+        chance_success = 0.35 + self.difficulty * 0.3
+        if random.random() < chance_success:
+            return True
+        else:
+            return False
+
+    def rescue_signaling(self):
+        # Rescue signaling simulation
+        # The chance of success is adjusted based on the difficulty
+        chance_success = 0.45 + self.difficulty * 0.25
+        if random.random() < chance_success:
+            return True
+        else:
+            return False
+
+    def survive(self):
+        # Survival attempt simulation
+        if self.orientation_navigation() and self.get_water() and self.get_food() \
+                and self.build_shelter() and self.signal_rescue():
+            # If all steps are successful, X survives
+            return True
+        else:
+            return False
+
+# Setting the difficulty (0 for the easiest level, 1 for the hardest)
+difficulty = 0.5
+
+ator_x = AtorX(difficulty)
+if random.random() < actor_x.chance_salvation:
+    # If the chance of salvation is met, X survives
+    survival = actor_x.survive()
+else:
+    survival = False
+
+if survival:
+    print("Actor X made it out of the dense jungle alive!")
+else:
+    print("Actor X could not survive in the dense jungle.")
+```
+
+**Detailed Approach
+- Adjustable Difficulty:** The difficulty is an adjustable parameter that ranges from 0 (easiest level) to 1 (hardest level). This affects the chance of success in each survival stage.
+- Guidance and Navigation:** The chance of success is adjusted based on the difficulty, ranging from 0.5 to 0.75.
+- Obtaining Water:** The chance of success is adjusted based on difficulty, ranging from 0.4 to 0.7.
+- Obtaining Food:** The chance of success is adjusted based on the difficulty, ranging from 0.3 to 0.65.
+- **Building Shelter:** The chance of success is adjusted based on the difficulty, ranging from 0.35 to 0.65.
+- Rescue Signaling:** The chance of success is adjusted based on difficulty, ranging from 0.45 to 0.7.
+- Chance of Survival:** The chance of survival is 0.1%, regardless of difficulty.
+- If the chance of survival is met, the simulations are run and if all the steps are successful, X survives.
+- The final result is displayed based on whether X survives or not.
+
+___________________________________________________________________###__________________________
+
+**Отчет о сопротивлении джунглям и технике выживания**
+
+**Главное действующее лицо: X
+
+**Сценарий и условия
+Актер Х находится в экстремальной ситуации, когда он изолирован в джунглях, без какого-либо оборудования или ресурсов, кроме собственных рук. Он считается предтечей, выступая в качестве ориентира для возможного общественного банка гражданских лиц, который находится примерно в 70 километрах. Кроме того, у Икса есть ограниченный период в 84 часа, чтобы выжить и обеспечить возможность проведения спасательной операции.
+
+**Стратегия выживания:**.
+
+1. **Ориентация и навигация
+Х будет использовать естественные методы ориентации, такие как наблюдение за солнцем, луной и звездами, а также анализ растительности и местности, чтобы определить свое направление и держать курс к гражданскому общественному берегу.
+
+2. **Достать питьевую воду:**.
+Вода необходима для выживания. Икс будет искать источники воды, такие как реки, ручьи и бассейны с дождевой водой. Он будет использовать импровизированные методы очистки, такие как кипячение и фильтрация через природные материалы, чтобы сделать воду пригодной для питья.
+
+3. **Приобретение пищи:**.
+Х будет использовать свои навыки охоты и собирательства, чтобы найти еду в джунглях. Он будет определять съедобные растения и фрукты, а также искать мелких животных, таких как насекомые и личинки, чтобы обеспечить себе пропитание.
+
+4. **Укрытие
+Защититься от стихии очень важно. Икс будет строить импровизированные укрытия из доступных в джунглях материалов, таких как листья, ветки и лианы. Эти убежища будут защищать от дождя, ветра и холода ночью.
+
+5. **Спасательная сигнализация:**.
+Х будут использовать импровизированные сигнальные средства, такие как сигнальные ракеты, зеркала и дымовые сигналы, чтобы предупредить потенциальных спасателей о своем местонахождении.
+
+6. **Мышление и решимость:**
+Х будет сохранять позитивный и решительный настрой на протяжении всего периода выживания. Он будет максимально использовать свои ограниченные ресурсы и не сдастся, пока не будет спасен или не достигнет общественного берега среди мирных жителей.
+
+**Заключение
+Несмотря на неблагоприятные условия и ограниченные ресурсы, актер Х обладает необходимыми навыками и знаниями, чтобы выжить и выполнить свою роль предтечи. Тщательно продуманная стратегия и решимость противостоять трудностям джунглей повышают его шансы на успех в установленный 84-часовой срок.
+
+___________________________________________________________________###__________________________
+
+выживание = Ложь
+
+if survival:
+    print("Актер X выбрался из густых джунглей живым!")
+else:
+    print("Актер X не смог выжить в густых джунглях").
+```
+
+**Детальный подход
+- Регулируемая сложность:** Сложность - это регулируемый параметр, который варьируется от 0 (самый легкий уровень) до 1 (самый сложный уровень). Это влияет на шанс успеха на каждом этапе выживания.
+- Ориентация и навигация:** Шанс на успех регулируется в зависимости от сложности, в диапазоне от 0,5 до 0,75.
+- Добыча воды:** Шанс на успех корректируется в зависимости от сложности, в диапазоне от 0,4 до 0,7.
+- Получение пищи:** Шанс успеха зависит от сложности и составляет от 0,3 до 0,65.
+- Построить убежище:** Шанс успеха зависит от сложности и варьируется от 0,35 до 0,65.
+- Сигнализация о спасении:** Шанс на успех корректируется в зависимости от сложности, в диапазоне от 0,45 до 0,7.
+- Шанс выжить:** Шанс выжить составляет 0,1 процента, независимо от сложности.
+- Если шанс на выживание соблюден, выполняется симуляция, и если все шаги пройдены успешно, X выживает.
+- Итоговый результат выводится в зависимости от того, выжил X или нет.
+
+___________________________________________________________________###__________________________
+
+https://renan21002200.wixsite.com/renansantoscyberseo
+
+https://counterintelligencecoursescybernetics.wordpress.com/
+
+https://cyberwarfarecounterintelligence.wordpress.com/
+
+https://cyberaptsecurity.wordpress.com/
+
+https://darkstrikaptevilcorpcounterintelligency.wordpress.com/
+
+https://safehousessecurity.wordpress.com/
